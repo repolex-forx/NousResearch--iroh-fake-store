@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/iroh-fake-store/commit/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1",
       "git:hexsha": "b06cf0135dd65de3336815eaf4dc4a6ba552b3b1",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
