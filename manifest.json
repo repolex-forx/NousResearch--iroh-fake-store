@@ -20,6 +20,154 @@
       ],
       "ast": [
         "aggregate/ast/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "iroh-blobs",
+          "ecosystem": "CARGO",
+          "version": "0.98.0",
+          "githubOrg": "n0-computer",
+          "githubRepo": "iroh-blobs",
+          "githubCommit": "94a8ca9920c8db5f6c64d79ac532fd429be28aac",
+          "githubTag": "v0.98.0",
+          "githubUrl": "https://github.com/n0-computer/iroh-blobs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bao-tree",
+          "ecosystem": "CARGO",
+          "version": "0.16",
+          "githubOrg": "n0-computer",
+          "githubRepo": "bao-tree",
+          "githubUrl": "https://github.com/n0-computer/bao-tree",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ref-cast",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "ref-cast",
+          "githubUrl": "https://github.com/dtolnay/ref-cast",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "irpc",
+          "ecosystem": "CARGO",
+          "version": "0.12",
+          "githubOrg": "n0-computer",
+          "githubRepo": "irpc",
+          "githubUrl": "https://github.com/n0-computer/irpc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "range-collections",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "rklaehn",
+          "githubRepo": "range-collections",
+          "githubUrl": "https://github.com/rklaehn/range-collections",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "n0-future",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "n0-computer",
+          "githubRepo": "n0-future",
+          "githubUrl": "https://github.com/n0-computer/n0-future",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-test",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iroh",
+          "ecosystem": "CARGO",
+          "version": "0.96.0",
+          "githubOrg": "n0-computer",
+          "githubRepo": "iroh",
+          "githubCommit": "d5299bf29f352de5fd903255ba0c515cb03a0b75",
+          "githubTag": "v0.96.0",
+          "githubUrl": "https://github.com/n0-computer/iroh",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing-subscriber",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "iroh-base",
+          "ecosystem": "CARGO",
+          "version": "0.96.1",
+          "githubOrg": "n0-computer",
+          "githubRepo": "iroh",
+          "githubCommit": "82650d1d1ffa59de36afa937471b484d358fbc7f",
+          "githubTag": "v0.96.1",
+          "githubUrl": "https://github.com/n0-computer/iroh",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/iroh-base-0.96.1/src/endpoint_addr.rs"
+        },
+        {
+          "packageName": "futures-lite",
+          "ecosystem": "CARGO",
+          "version": "2.6.1",
+          "githubOrg": "smol-rs",
+          "githubRepo": "futures-lite",
+          "githubCommit": "226ce18976d8714d6bd9700b61dcc81d7200bc9a",
+          "githubTag": "v2.6.1",
+          "githubUrl": "https://github.com/smol-rs/futures-lite",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-lite-2.6.1/src/stream.rs"
+        }
       ]
     }
   ],

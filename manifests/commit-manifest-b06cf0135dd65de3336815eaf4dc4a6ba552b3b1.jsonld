@@ -42,10 +42,86 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1/chunk-001.nq.gz",
       "repolex:graphFileSize": 1056694
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1.nq.gz",
+      "repolex:graphFileSize": 92953
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-04T14:39:54.408469+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/n0-computer/iroh-blobs",
+      "repolex:packageName": "iroh-blobs",
+      "git:hexsha": "94a8ca9920c8db5f6c64d79ac532fd429be28aac",
+      "git:tagName": "v0.98.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/n0-computer/bao-tree",
+      "repolex:packageName": "bao-tree"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/bytes",
+      "repolex:packageName": "bytes"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/anyhow",
+      "repolex:packageName": "anyhow"
+    },
+    {
+      "@id": "https://repolex.ai/r/dtolnay/ref-cast",
+      "repolex:packageName": "ref-cast"
+    },
+    {
+      "@id": "https://repolex.ai/r/n0-computer/irpc",
+      "repolex:packageName": "irpc"
+    },
+    {
+      "@id": "https://repolex.ai/r/rklaehn/range-collections",
+      "repolex:packageName": "range-collections"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile"
+    },
+    {
+      "@id": "https://repolex.ai/r/n0-computer/n0-future",
+      "repolex:packageName": "n0-future"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tokio",
+      "repolex:packageName": "tokio-test"
+    },
+    {
+      "@id": "https://repolex.ai/r/n0-computer/iroh",
+      "repolex:packageName": "iroh",
+      "git:hexsha": "d5299bf29f352de5fd903255ba0c515cb03a0b75",
+      "git:tagName": "v0.96.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/tokio-rs/tracing",
+      "repolex:packageName": "tracing-subscriber"
+    },
+    {
+      "@id": "https://repolex.ai/r/n0-computer/iroh",
+      "repolex:packageName": "iroh-base",
+      "git:hexsha": "82650d1d1ffa59de36afa937471b484d358fbc7f",
+      "git:tagName": "v0.96.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/smol-rs/futures-lite",
+      "repolex:packageName": "futures-lite",
+      "git:hexsha": "226ce18976d8714d6bd9700b61dcc81d7200bc9a",
+      "git:tagName": "v2.6.1"
+    }
+  ]
 }
