@@ -1,0 +1,27 @@
+{
+  "manifest_version": "1.0",
+  "org": "NousResearch",
+  "repo": "iroh-fake-store",
+  "versions": [
+    {
+      "commit": "b06cf0135dd65de3336815eaf4dc4a6ba552b3b1",
+      "parsed_at": "2026-10-04T14:39:54.408469+00:00",
+      "tag": "main",
+      "filetree": "filetree/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1.nq.gz",
+      "blobs": [
+        "blob/d0a39bb3513549fcb6eac0f96d0fa6971e9b6394.nq.gz",
+        "blob/edb874dd1d59dc3d61d11d1cf78bc901a64d9225.nq.gz",
+        "blob/cc4f19e5210ea0db7f059be51788f8a2ac2c7175.nq.gz",
+        "blob/5bde95386f7d12a488ba664d33b140ab7f27ac4c.nq.gz",
+        "blob/dcce183ed636aebad267e86985631fdbc1f486e5.nq.gz",
+        "blob/022d05e23b969d7a360f3f2737693d79a176960b.nq.gz",
+        "blob/3550a30f2de389e537ee40ca5e64a77dc185c79b.nq.gz",
+        "blob/273b10ad25034a83c25cf5363b1a0596145d4904.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
