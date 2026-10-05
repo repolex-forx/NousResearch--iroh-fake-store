@@ -168,7 +168,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-lite-2.6.1/src/stream.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1/chunk-001.nq.gz",
+      "dep": "dep/b06cf0135dd65de3336815eaf4dc4a6ba552b3b1.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
